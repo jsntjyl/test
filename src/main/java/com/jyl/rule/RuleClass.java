@@ -47,7 +47,7 @@ public class RuleClass {
             boolean b = number % 7 == 0;
             if (b)
                 result.append("matched" + number);
-            //System.out.println(number);
+                System.out.println(number);
             return b;
         }
 
