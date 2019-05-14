@@ -36,7 +36,7 @@ public class RuleClient {
         Facts facts = new Facts();
         StringBuffer result = new StringBuffer();
         facts.put("result", result);
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 1; i++) {
             facts.put("number", 35);
             facts.put("othernumber", 35);
             fizzBuzzEngine.fire(rules, facts);
