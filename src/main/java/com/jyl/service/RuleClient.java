@@ -40,7 +40,7 @@ public class RuleClient {
             facts.put("number", 35);
             facts.put("othernumber", 35);
             fizzBuzzEngine.fire(rules, facts);
-            //System.out.println(facts.get("reresult"));
+            System.out.println(facts.get("reresult"));
         }
     }
 
